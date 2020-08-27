@@ -11,5 +11,6 @@ export class PageComponent implements OnInit {
 
   ngOnInit() {
   }
+  color:string="red";
 
 }
