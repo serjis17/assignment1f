@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import{UnderlineDirective} from './underline.directive'
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: []
+  declarations: [UnderlineDirective],
+  exports:[UnderlineDirective]
 })
 export class ModuleBModule { }
